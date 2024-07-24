@@ -1,0 +1,222 @@
+* {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+ 
+}
+ul li{
+    display: inline-block; 
+    padding: 15px;
+ }
+
+body{
+    margin: 0px;
+}
+
+header li{
+    justify-content: space-around;
+}
+
+
+.navegador {
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-top: -10px;
+    
+}
+  
+
+
+#nav li {
+    display: inline;
+}
+
+#cuadro {
+    display: inline-block;
+    height: 30px;
+    justify-content: space-around;
+}
+
+#perfil {
+    display: inline-block;
+    border-radius: 50px;
+    height: 40px;
+    border-style: ridge;
+    box-shadow: rgb(red, green, blue);
+    
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+ 
+}
+article{
+  margin-top: -20vh;
+    text-align: center;
+    padding: -35px;
+}
+#logo{
+    height: 92px;
+}
+
+#cuerpo{
+height: 72px;
+margin-top: 10vh;
+
+}
+
+#barra {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dadce0;
+    align-items: stretch;
+    height: 40px;
+    width: 572px;
+    border-radius: 25px;
+    margin: 35px 0px;
+    padding: 2px;
+  
+    
+}
+
+#lupa,
+#buscar,
+#microfono,
+#camara {
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle; /* Align items vertically in the middle */
+   margin: -10px; /* Add margin for spacing between items */
+}
+
+#buscar {
+    border: none; /* Remove border */
+    background: none; /* Remove background */
+    outline: none; /* Remove outline */
+    width: 100px; /* Adjust width as needed */
+    height: 10px;
+    margin: 15px 0px 20px 0px
+}
+
+#barra input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+#barra:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+
+}
+
+#lupa svg,
+#buscar svg,
+#microfono svg,
+#camara svg {
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle; /* Align items vertically in the middle */
+}
+
+.btn {
+    border-radius: 70px;
+    border-style: none;
+}
+
+footer{
+    background:  #f2f2f2;
+}
+
+footer div {
+   
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+}
+
+#mex {
+   margin: 0px;
+   padding: 15px;
+    border-color: black;
+    border-bottom:1px solid #dadce0 ;
+}
+
+#about {
+    display: inline-block;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+#about li {
+    display: inline-block;
+    font-size: small;
+    padding: 15px;
+}
+
+#pcp {
+    display: inline-block;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pcp li {
+    display: inline-block;
+    font-size: small;
+    padding: 15px;
+}
+
+button{
+    border-color:1px solid #f8f9fa; ;
+    border:1px solid #f8f9fa;
+    padding:0 16px ;
+    height: 36px;
+    font-size: 14px;
+    color: #3c4043;
+     margin: 11px 4px;
+    border: none;
+
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header a{
+    font-size: 13px;
+    color: #1f1f11;
+    
+
+}
+
+footer a{
+    font-size: 14px;
+    color: #202124;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    
+}
+
